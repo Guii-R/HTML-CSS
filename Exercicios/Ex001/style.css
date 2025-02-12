@@ -1,0 +1,56 @@
+h1 {
+    font-family:"Bangers";
+    font-size: 48px;
+    text-align: center;
+    color: #7701ed;
+    text-shadow: 4px 4px 12px rgba(255, 0, 238, 0.5);
+  }
+  p {
+    font-family:"Bangers";
+    font-size: 22px;
+    line-height: 0.5;
+    text-align: center;
+    color: #3cff00;
+    text-shadow: 4px 4px 12px rgba(0, 255, 72, 0.5);
+  }
+
+  h2 {
+    font-family:"Bangers";
+    font-size: 22px;
+    text-align: center; 
+    color: #54ed01;
+    text-shadow: 4px 4px 12px rgba(0, 255, 38, 0.5);
+  }
+  h3 {
+    transition: font-size 0.3s ease-in-out;
+  }
+  .imagem2:hover{
+    transform: scale(1.1);
+  }
+  h3:hover{
+    background-color: rgb(30, 255, 0);
+    color: aqua;
+    transform: scale(1.5);
+    box-shadow: aqua;
+  }
+  h3 {
+    font-family:"Bangers";
+    font-size: 38px;
+    position: absolute; top: 320px; left: 1100px;
+    text-shadow: 4px 4px 12px rgba(255, 0, 238, 0.5);
+  }
+  body {
+    background-image: url('joker.jpg');
+    background-size: 1300px 1000px;
+    background-repeat: no-repeat;
+    background-position:left top;
+  }
+  .imagem1{
+    position: relative;
+    left: 36.5%;   
+  }
+  .imagem2{
+    position:fixed;
+    left:45%;
+  }
+  

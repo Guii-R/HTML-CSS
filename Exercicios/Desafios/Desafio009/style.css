@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(24, 24, 24);
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+}
+a {
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#voltar {
+     text-align: center;
+}
+
+#video {
+    text-align: center;
+}
+
+#thumbs {
+    text-align: center;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(135deg, rgb(0, 52, 52), rgb(4, 203, 160), rgb(176, 77, 176));
+            height: 688px;
+            text-align: center;
+        }
+        
+        h1 {
+            color: rgb(255, 255, 255);
+        }
+
+        a {
+            color: aqua;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: rgb(1, 213, 213);
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: aquamarine;
+        }
+
+        a:active {
+            color: rgb(0, 255, 170);
+        }
+
+        .especial::before {
+            content: '\2192';
+            color: rgb(110, 255, 207);
+        }
+
+        .especial {
+            background-color: rgb(10, 69, 50);
+        }
+
+        .especial::after {
+            content: '\2190';
+            color: rgb(110, 255, 207);
+        }
+
+        ul {
+            display: inline-block;
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank">Repositório HitHub</a></li>
+        <li><a href="https://youtube.com/cursoemvideo/" class="especial" target="_blank">Canal do YouTube</a></li>
+        <li><a href="https://www.cursoemvideo.com" class="especial" target="_blank">Site do CursoemVídeo</a></li>
+        <li><a href="https://www.facebook.com/talita.tazinha" class="especial" target="_blank">Face da Palitinha</a></li>
+    </ul>
+</body>
+</html>
